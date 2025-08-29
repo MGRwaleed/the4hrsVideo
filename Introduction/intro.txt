@@ -1,0 +1,13 @@
+Express JS is a minimal and flexible web framework for NodeJS. 
+It provides a set of powerful tools and features to build web applications and API's quickly and efficiently.
+
+- Using Express JS:
+It is easy to learn
+Faster to build
+Huge ecosystem of middleware and community support.
+Suitable for  building small apps, large web applications, and REST API's.
+
+- Alternatives of ExpressJS:
+Fastify
+koa.js
+NestJS

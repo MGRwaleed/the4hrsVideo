@@ -1,0 +1,27 @@
+Backend Setup with Simple Express Setup
+1. Create a new repo with projectName
+2. Make sure you check readme
+3. copy the ssh code
+4. come back to terminal and type git clone ssh-url
+ex: git clone git@github.com/suhailroushan13.git
+5. cd repoName
+6. mkdir server
+7. cd server
+8. npm init -y
+9. touch app.js .gitignore I
+10. In .gitignore add this text
+node modules
+11. In package.json add this text
+"type":"module"
+12. In scripts in package.json add this
+"start":"node app.js"
+13. In app.js
+'''
+code of express
+'''
+14. npm start
+15. git add.
+16. git commit -m"completed express setup"
+17. git push origin main
+
+Follow these steps to setup express in your device
