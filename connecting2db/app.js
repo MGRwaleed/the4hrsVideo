@@ -28,6 +28,13 @@ app.put("/data", async (req, res) => {
     res.send("Data Updated");
 });
 
+//Deleting Data
+app.delete("/data/:id", async (req, res) => {
+    const {id} = req.params.id;
+    await data.findByIdAndDelete(id);
+    res.send("Data Deleted");
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
